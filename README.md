@@ -12,8 +12,10 @@ With jQuery we can change images with ease, now we can also do it in style.
 example:
 
 html:
-<img id=image1 src="example1.jpg">
-<script>
-jQuery(function($){
-  $('#image1').animate({src:'example2.jpg'},500,{effect:'kenburns'});
-});
+
+    <img id=image1 src="example1.jpg">
+    <script>
+        jQuery(function($){
+            $('#image1').animate({src:'example2.jpg'},500,{effect:'kenburns'});
+        });
+    </script>
