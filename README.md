@@ -13,9 +13,9 @@ example:
 
 html:
 
-    <img id=image1 src="example1.jpg">
+    <img id="image1" src="example1.jpg">
     <script>
         jQuery(function($){
-            $('#image1').animate({src:'example2.jpg'},500,{effect:'kenburns'});
+            $('#image1').animate({'src':'example2.jpg'},500,{'effect':'kenburns'});
         });
     </script>
